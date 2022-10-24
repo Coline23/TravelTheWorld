@@ -1,0 +1,39 @@
+.video_bora_bora iframe {
+    width: 560px;
+    height: 315px;
+    box-shadow: 3px 3px 100px 3px gray;
+}
+
+#partenariat {
+    margin-top: 5vw;
+}
+
+#partenariat img {
+    width: 200px;
+    transition: 0.5s;
+    padding: 30px;
+}
+
+#partenariat img:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:450px) {
+    
+
+}
+
+
+@media screen and (max-width:600px) {
+    .video_bora_bora iframe {
+        width: 400px;
+        height: 225px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .video_bora_bora iframe {
+        width: 250px;
+        height: 140.625px;
+    }
+}
