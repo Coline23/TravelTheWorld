@@ -1,0 +1,68 @@
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar-nav{
+    color: #6e8221;
+    font-weight: bold;
+}
+.navbar-nav a{
+    margin-right: 50px;
+}
+
+
+nav{
+    background-color: #f8eace;
+}
+
+#monMenu{
+    display: flex;
+    justify-content: space-evenly;
+}
+#monMenu li{
+    color: #6e8221;
+    margin-right: 100px;
+}
+
+label{
+    margin-bottom: 20px;
+}
+
+#message{
+    margin-left: 30px;
+}
+
+.btn{
+    background-color: #6e8221;
+    color: #f8eace;
+}
+
+form{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#bandeau-promo{
+    background-color: #c5e83a76;
+    color: brown;
+    
+}
+
+#bandeau-promo h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+#bandeau-promo h4{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
