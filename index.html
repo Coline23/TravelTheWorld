@@ -26,6 +26,94 @@
 </head>
 
 <body>
+
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="/"><img src="./images/logo-travel.png" alt=""></a>
+    
+                <div class="collapse navbar-collapse" id="monMenu">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-items nav-link" href="#navbar">Accueil</a>
+                        <a class="nav-items nav-link" href="#formules">Formules</a>
+                        <a class="nav-items nav-link" href="#reservation">Réservations</a>
+                        <a class="nav-items nav-link" href="#contact">Contacts</a>
+                        <a class="nav-items nav-link" href="#partenariat">Partenariat</a>
+                    </div>
+                </div>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+
+    <!--CAROUSEL-->
+
+
+
+
+
+    <!--PROMO-->
+    <section id="bandeau-promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>PROMO</h1>
+                    <h4> -15% sur tous les séjours en formule premium ou excellence pour toute réservation avant le 1er novembre 2022 
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--VIDEO-->
+
+
+
+
+    <!--FORMULES-->
+
+
+
+
+     <!--BANDEAU ICONES-->
+     <section class="band-icon" id="bandeau-icon">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="details-band text-center">
+                        <i class="fa-solid fa-earth-americas fa-6x"></i>
+                        <h4>100 destinations <br>disponibles</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="details-band text-center">
+                        <i class="fa-regular fa-calendar-xmark fa-6x"></i>
+                        <h4>Annulation gratuite <br>jusqu'à une semaine avant</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="details-band text-center">
+                        <i class="fa-solid fa-suitcase fa-6x mx-auto"></i>
+                        <h4>30 ans <br>d'expérience</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <!--FORMULAIRE RESA-->
     <section class="form-reservation" id="reservation">
         <div class="container">
@@ -144,35 +232,70 @@
         </div>
     </section>
 
-    <!--BANDEAU ICONES-->
-    <section class="band-icon" id="bandeau-icon">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="details-band text-center">
-                        <i class="fa-solid fa-earth-americas fa-6x"></i>
-                        <h4>100 destinations <br>disponibles</h4>
-                    </div>
-                </div>
+   
+    <!--PARTENAIRES-->
 
-                <div class="col-md-4">
-                    <div class="details-band text-center">
-                        <i class="fa-regular fa-calendar-xmark fa-6x"></i>
-                        <h4>Annulation gratuite <br>jusqu'à une semaine avant</h4>
-                    </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="details-band text-center">
-                        <i class="fa-solid fa-suitcase fa-6x mx-auto"></i>
-                        <h4>30 ans <br>d'expérience</h4>
+
+
+
+    <!---------- CONTACT FORM -------------------->
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <!---------- Nom et email -------------------->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label>Nom :</label>
+                            <input type="text" id="name" />
+                        </div>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label>Email :</label>
+                            <input type="text" id="emaol" placeholder="Ajouter votre email"/>
+                        </div>
+                    </div>
+                    <!---------- Service contact -------------------->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Sélectionnez le service</label>
+                                <select>
+                                    <option>Service client</option>
+                                    <option>Service comptable</option>
+                                    <option>SAV</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!---------- Message -------------------->
+
+                            <label>Votre message :</label>
+                            <textarea id="message" rows="3"></textarea>
+                            
+                        </div>
+                    </div>
+
+                    <!---------- Bouton envoyer -------------------->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn"> Envoyer
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!--FORMULAIRE RESA-->
+
+    <!--MAP-->
     <section class="google-maps" id="googlemaps">
         <div class="container">
             <div class="row">
@@ -193,6 +316,22 @@
             </div>
     </section>
 
+
+
+
+    <!--RESEAUX SOCIAUX-->
+
+
+
+
+    <!--FOOTER-->
+
+
+
+
+
+
+    
     <!--SCRIPT-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
