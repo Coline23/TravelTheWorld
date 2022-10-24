@@ -1,22 +1,178 @@
-body{
-margin: 0;
-padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.nav-item a{
+.nav-item a {
     color: #6E8221;
-   
+
 }
 
-.carousel-inner{
+.carousel-inner {
     padding: 0px 150px 150px 150px;
 }
 
 
-.carousel-item h5 p{
+.carousel-item h5 p {
     font-family: 'Quicksand', sans-serif;
     color: blue;
 }
 
 
+/* INFOS DOC
+    - Document : Travel the World website
+    - Version : 1.0.0
+    - Author : Arinfo students
+*/
 
+/* COLORS 
+    - default body text 
+    - h1 
+    - h2 
+    - h3 
+
+    - button 
+    - button:hover 
+
+    - border : none 
+    - icons 
+*/
+
+/* FONTS
+    - Default : 'Quicksand', sans-serif;
+    - Titres : 'Fuzzy Bubbles', cursive; 
+*/
+
+/* CSS DIRECTORY
+    1. Global
+    2. Header
+    3. Le concept
+    4. La team
+    5. Contact
+*/
+
+/* Global */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+section {
+    padding: 30px;
+}
+
+/* Bouton */
+
+.btn-full {
+    background-color: #6E8221;
+    color: #F8EACE;
+    margin-top: 20px;
+    font-size: 160%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    opacity: 90%;
+}
+
+
+.btn-full:hover {
+    background-color: #F8EACE !important;
+    color: #6E8221 !important;
+}
+
+/* Formulaire Résa */
+.form-header h1 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #6E8221;
+}
+
+/* Bandeau Icones */
+.band-icon {
+    background-color: #F8EACE;
+    padding-top: 20px;
+    color: #26316A;
+}
+
+.band-icon h4 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #6E8221;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.details-band i {
+    color: #6E8221;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* Google Maps */
+.maps-header h2 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #6E8221;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-nav {
+    color: #6e8221;
+    font-weight: bold;
+}
+
+.navbar-nav a {
+    margin-right: 50px;
+}
+
+
+nav {
+    background-color: #f8eace;
+}
+
+#monMenu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#monMenu li {
+    color: #6e8221;
+    margin-right: 100px;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+#message {
+    margin-left: 30px;
+}
+
+.btn {
+    background-color: #6e8221;
+    color: #f8eace;
+}
+
+form {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#bandeau-promo {
+    background-color: #c5e83a76;
+    color: brown;
+
+}
+
+#bandeau-promo h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+#bandeau-promo h4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
