@@ -1,0 +1,92 @@
+/* INFOS DOC
+    - Document : Travel the World website
+    - Version : 1.0.0
+    - Author : Arinfo students
+*/
+
+/* COLORS 
+    - default body text 
+    - h1 
+    - h2 
+    - h3 
+
+    - button 
+    - button:hover 
+
+    - border : none 
+    - icons 
+*/
+
+/* FONTS
+    - Default : 'Quicksand', sans-serif;
+    - Titres : 'Fuzzy Bubbles', cursive; 
+*/
+
+/* CSS DIRECTORY
+    1. Global
+    2. Header
+    3. Le concept
+    4. La team
+    5. Contact
+*/
+
+/* Global */
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+section {
+    padding: 30px;
+}
+
+/* Bouton */
+
+.btn-full {
+    background-color: #6E8221;
+    color: #F8EACE;
+    margin-top: 20px;
+    font-size: 160%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    opacity: 90%;
+}
+
+
+.btn-full:hover {
+    background-color: #F8EACE !important;
+    color: #6E8221 !important;
+}
+
+/* Formulaire Résa */
+.form-header h1 {
+    font-family: 'Fuzzy Bubbles', cursive; 
+    color: #6E8221;
+}
+
+/* Bandeau Icones */
+.band-icon {
+    background-color: #F8EACE;
+    padding-top: 20px;
+    color: #26316A;
+}
+
+.band-icon h4 {
+    font-family: 'Fuzzy Bubbles', cursive; 
+    color: #6E8221;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.details-band i {
+    color: #6E8221;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* Google Maps */
+.maps-header h2 {
+    font-family: 'Fuzzy Bubbles', cursive; 
+    color: #6E8221;
+}
