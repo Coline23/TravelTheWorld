@@ -1,0 +1,22 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.nav-item a{
+    color: #6E8221;
+   
+}
+
+.carousel-inner{
+    padding: 0px 150px 150px 150px;
+}
+
+
+.carousel-item h5 p{
+    font-family: 'Quicksand', sans-serif;
+    color: blue;
+}
+
+
+
