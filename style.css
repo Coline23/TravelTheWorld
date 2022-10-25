@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -57,9 +61,6 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-section {
-    padding: 30px;
-}
 
 /* Bouton */
 
@@ -175,4 +176,63 @@ form {
 #bandeau-promo h4 {
     text-align: center;
     padding-bottom: 20px;
+}
+
+
+
+
+/* VIDEO */
+
+.video_bora_bora iframe {
+    width: 560px;
+    height: 315px;
+    box-shadow: 3px 3px 100px 3px gray;
+    margin: 4vw;
+}
+
+
+
+/* PARTENARIATS */
+
+#partenariat {
+    margin-top: 5vw;
+}
+
+#partenariat img {
+    width: 200px;
+    transition: 0.5s;
+    padding: 30px;
+}
+
+#partenariat img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* FOOTER */
+
+footer {
+    height: 20vh;
+    background-color: #F8EACE;
+}
+
+footer img {
+    height: 20vh;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .video_bora_bora iframe {
+        width: 400px;
+        height: 225px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .video_bora_bora iframe {
+        width: 250px;
+        height: 140.625px;
+    }
 }
