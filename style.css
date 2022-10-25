@@ -1,0 +1,190 @@
+/** Global : 
+
+Couleurs == 
+
+color principal :Beige F8EACE
+
+color secondaire : Vert 6E8221
+
+Texte ==
+
+Titre et Soutitre : font-family: 'Fuzzy Bubbles', cursive;
+Texte / paragraphe : font-family: 'Quicksand', sans-serif;
+
+
+**/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Fuzzy Bubbles', cursive;
+
+}
+
+body{
+    background-color: #6f822149;
+}
+
+
+
+/*****************  Styles : Formules  ******************/
+
+#nosformules{
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+.formules {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #F8EACE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    height: 50vh;
+}
+
+/** Styles : Formules > titre  **/
+
+.star{
+    text-align: center;
+    font-size: 40px;
+}
+.titreformules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.formules h3 {
+    color: #749004;
+    font-size: 400;
+    font-weight: 200;
+    text-align: center;
+}
+
+.formules h4 {
+    font-weight: 50;
+    text-align: center;
+}
+
+.formules-title {
+    padding: 10px 10px 0px 10px;
+}
+
+
+/** Styles : Formules > list a puce  **/
+
+
+.formules-content ul {
+    list-style: none;
+    padding: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+}
+.formules-premium li {
+   padding: 8px;
+}
+.formules-standard li {
+    padding: 8px;
+ }
+ .formules-excellence li {
+    padding: 4px;
+ }
+
+ /** Styles : Formules > bouton  **/
+
+
+.formules-signup {
+    text-align: center;
+}
+
+.btn-formules {
+    background-color: rgb(76, 101, 39);
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.btn-formules:hover {
+    background-color: rgb(92, 140, 20);
+    color: white;
+    transform: translatey(-5px);
+}
+
+
+/*******************  Styles : Resaux Sociaux  ********************/
+
+#reseaux-sociaux{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8EACE ;
+    height: 55vh;
+    width: 35vw;
+    border-radius: 10%;
+
+}
+
+/**  Styles : Resaux Sociaux > titre  **/
+
+#reseaux-sociaux h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/**  Styles : Resaux Sociaux > liste a puce **/
+
+
+#reseaux-sociaux ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#reseaux-sociaux li{
+
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    border: 0.2rem solid #272f027b;
+}
+
+#reseaux-sociaux ul li a{
+ 
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    margin-right: 5px;
+    
+
+}
+/**  Styles : Resaux Sociaux > icone  **/
+
+
+#reseaux-sociaux i{
+
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: #749004;
+
+}
+
+
+
+
+
